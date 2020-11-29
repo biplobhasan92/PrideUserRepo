@@ -1,0 +1,12 @@
+com\prideuser\security\WebSecurityConfig.class
+com\prideuser\security\UserDetailsServiceImpl.class
+com\prideuser\repository\UserRepository.class
+com\prideuser\model\Student.class
+com\prideuser\repository\StudentRepository.class
+com\prideuser\services\StudentServices.class
+com\prideuser\controller\AppController.class
+com\prideuser\security\MyUserDetails.class
+com\prideuser\security\PassGen.class
+com\prideuser\model\Role.class
+com\prideuser\model\User.class
+com\prideuser\PrideUserApplication.class
