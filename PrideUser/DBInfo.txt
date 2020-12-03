@@ -9,10 +9,10 @@ INSERT INTO roles (name) VALUES ('CREATOR');
 INSERT INTO roles (name) VALUES ('EDITOR');
 INSERT INTO roles (name) VALUES ('ADMIN');
 
-INSERT INTO users (username, password, enabled) VALUES ('hasan', '$2a$10$OlpVGGz1EXm.LQ/OcvmBQOFdAe3FQNYhOOXrKD6y9fhxOr2aBKwHu', '1');
-INSERT INTO users (username, password, enabled) VALUES ('hamid', '$2a$10$lv8PTtiNw7injglznpYeIehWW6knfFe/RnUW16TmGKtfSWRm/V2z2', '1');
-INSERT INTO users (username, password, enabled) VALUES ('nurul', '$2a$10$flDL1ovH.7JEy1lSpBuuHuqagrXA8K3j3ELXQFV/KXhQK.WSnP8a.', '1');
-INSERT INTO users (username, password, enabled) VALUES ('kobir', '$2a$10$9k8/ODt16QFCmcmXLO2.oeVR8gHUtqpw9JeoEwEx/BKKAX9BZbbHK', '1');
+INSERT INTO users (username, password, enabled) VALUES ('hasan', '$2a$10$lwyrWMdTAeKnrE4riA8T1e08xqrFr4K6OulYD24YrLSZwyxEbusoe', '1');
+INSERT INTO users (username, password, enabled) VALUES ('hamid', '$2a$10$yGrh6jFSyFB9hkTKPpxXwe5MhWROcXoQW6tdTvUi6MdfxkXb9Nq5O', '1');
+INSERT INTO users (username, password, enabled) VALUES ('nurul', '$2a$10$QfHw6KwmXuDToHezKGnSx.cPDVDbe7FyIFkvYbA/9fRpPSmRzhSva', '1');
+INSERT INTO users (username, password, enabled) VALUES ('kobir', '$2a$10$6Z0QEaehstcFjq6VTqjqUO8Nn3bdhti2M5c/RtzZKQpfDoz3KUONi', '1');
 INSERT INTO users (username, password, enabled) VALUES ('admin', '$2a$10$bN7OWEvi6rTqJEYbZfDOg.FHmG.xPTDxJR1k9LzsR4O6Nt8zuIKwq', '1');
 
 INSERT INTO users_roles (user_id, role_id) VALUES (1, 1); 
